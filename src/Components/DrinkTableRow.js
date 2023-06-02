@@ -1,7 +1,7 @@
 import React from 'react'
-import { formatUSD } from './Util/Money'
-import { getPriceForDrink } from './Util/App.Config'
-import './DrinkTableRow.scss'
+import { formatUSD } from '../Util/Money'
+import { getPriceForDrink } from '../Util/App.Config'
+import '../Styles/DrinkTableRow.scss'
 
 export const DrinkTableRow = ({displayName, item, theOrderedDrinks, onHandleClick}) => {
   return (
@@ -18,6 +18,7 @@ export const DrinkTableRow = ({displayName, item, theOrderedDrinks, onHandleClic
         <td>
             <button className='DrinkTableRow_Button' onClick={ () => onHandleClick(item, -1) }>-</button>
         </td>
+       
     </tr>
   )
 }

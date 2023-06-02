@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import './Footer.scss'
+import '../Styles/Footer.scss'
 
 export const Footer = () => {
   return (

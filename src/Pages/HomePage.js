@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import { CoffeeCarousel } from '../CoffeeCarousel'
+import { CoffeeCarousel } from '../Components/CoffeeCarousel'
 import './HomePage.scss'
 
 export const HomePage = () => {

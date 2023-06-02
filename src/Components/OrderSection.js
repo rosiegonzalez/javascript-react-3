@@ -1,7 +1,7 @@
 import React from 'react'
-import { formatUSD } from './Util/Money'
+import { formatUSD } from '../Util/Money'
 import { OrderTable } from './OrderTable'
-import './OrderSection.scss'
+import '../Styles/OrderSection.scss'
 
 export const OrderSection = ({total, order}) => {
   return (

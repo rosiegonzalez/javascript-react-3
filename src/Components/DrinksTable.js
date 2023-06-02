@@ -1,10 +1,10 @@
 import React from 'react'
 import { useRecoilState } from 'recoil'
-import { capitalize } from './Util/Strings'
-import { orderedDrinks } from './Util/Atoms'
+import { capitalize } from '../Util/Strings'
+import { orderedDrinks } from '../Util/Atoms'
 import { DrinkTableRow } from './DrinkTableRow'
-import { drinkPrices } from './Util/App.Config'
-import './DrinksTable.scss'
+import { drinkPrices } from '../Util/App.Config'
+import '../Styles/DrinksTable.scss'
 
 export const DrinksTable = () => {
     const [theOrderedDrinks, setOrderedDrinks] = useRecoilState(orderedDrinks)

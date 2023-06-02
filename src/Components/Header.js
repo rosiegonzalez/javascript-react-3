@@ -1,9 +1,9 @@
 import { useRecoilState } from 'recoil'
 import { useRecoilValue } from 'recoil'
-import { orderedDrinks } from './Util/Atoms' 
-import { showSideDrawer } from './Util/Atoms'
-import { getTotalNumberDrinks } from './Util/Order'
-import './Header.scss'
+import { orderedDrinks } from '../Util/Atoms' 
+import { showSideDrawer } from '../Util/Atoms'
+import { getTotalNumberDrinks } from '../Util/Order'
+import '../Styles/Header.scss'
 
 export const Header = () => {
     const drinks = useRecoilValue(orderedDrinks) 

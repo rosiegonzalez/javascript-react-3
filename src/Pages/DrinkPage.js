@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import { DrinksTable } from '../DrinksTable'
+import { DrinksTable } from '../Components/DrinksTable'
 import './DrinkPage.scss'
 
 export const DrinkPage = () => {
@@ -20,6 +20,11 @@ export const DrinkPage = () => {
                         <Image width='800px' rounded={true} fluid={true} src='tea.jpg' alt='tea' />
                         <br /><br />
                         <Image width='800px' rounded={true} fluid={true} src='lemonade.jpg' alt='lemonade' />
+                        <br /><br/>
+                        <Image width='800px' rounded={true} fluid={true} src='milk.jpg' alt='milk' /> 
+                      
+                        {/* // added milk image here // */}
+                        
                     </div>
                 </div>
             </div>

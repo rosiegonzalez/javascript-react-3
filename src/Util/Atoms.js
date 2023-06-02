@@ -23,7 +23,10 @@ export const orderedDrinks = atom({
     default: {
         tea: 0,
         coffee: 0,
-        lemonade: 0
+        lemonade: 0,
+        milk: 0
+
+        // Added milk to the list
     }
 })
 

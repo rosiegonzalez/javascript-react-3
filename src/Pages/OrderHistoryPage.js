@@ -1,6 +1,6 @@
 import React from 'react'
 import { formatUSD } from '../Util/Money'
-import { OrderTable } from '../OrderTable'
+import { OrderTable } from '../Components/OrderTable'
 import { calcTotalForAllOrders } from '../Util/Order'
 import * as localStorageProxy from '../Util/LocalStorageProxy'
 import './OrderHistoryPage.scss'

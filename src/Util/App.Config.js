@@ -6,6 +6,9 @@
 //
 
 export const drinkPrices = [
+
+// An array of objects with drink prices 
+
     { 
         id: 1,
         type: "lemonade",
@@ -20,6 +23,12 @@ export const drinkPrices = [
         id: 3,
         type: "coffee",
         price: 3.00 
+    },
+   
+    { 
+        id: 4,
+        type: "milk",
+        price: 4.00 
     }
 ]
 

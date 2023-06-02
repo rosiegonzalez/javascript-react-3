@@ -1,5 +1,5 @@
 import React from 'react'
-import './SidebarMenu.scss'
+import '../Styles/SidebarMenu.scss'
 
 export const SidebarMenu = ({onHandleLink}) => {
     return (

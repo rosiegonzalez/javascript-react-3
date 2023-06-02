@@ -1,7 +1,7 @@
 import React from 'react'
-import { formatUSD } from './Util/Money'
-import { capitalize } from './Util/Strings'
-import './OrderTable.scss'
+import { formatUSD } from '../Util/Money'
+import { capitalize } from '../Util/Strings'
+import '../Styles/OrderTable.scss'
 
 export const OrderTable = ({completeOrder}) => {
     return (
