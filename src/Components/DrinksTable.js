@@ -17,7 +17,7 @@ export const DrinksTable = () => {
         drinks[item] += value
         setOrderedDrinks(drinks)
     }
-
+    
     return (
         <div className='DrinksTable'>
             <table className='DrinkTable_Table'>

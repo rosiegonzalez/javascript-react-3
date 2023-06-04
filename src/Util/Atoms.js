@@ -18,6 +18,17 @@ import { atom } from 'recoil'
 // Desc:
 //   Stores the drinks that the customer has ordered.
 //
+export const orderedFood = atom({
+    key: 'orderedFood',
+    default: {
+    sandwiches: 0,
+    crepes: 0,
+    pancakes: 0,
+    toast: 0
+
+
+    }
+})
 export const orderedDrinks = atom({
     key: 'orderedDrinks',
     default: {
